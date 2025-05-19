@@ -1,0 +1,15 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #fdf6e3;
+      padding: 20px;
+    }
+    .frase {
+      border:solid #ffcc00;
+      background: #fff8dc;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    #frases {
+      margin-right: 900px;
+    }
