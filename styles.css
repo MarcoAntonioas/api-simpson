@@ -1,15 +1,40 @@
- body {
-      font-family: Arial, sans-serif;
-      background: #fdf6e3;
-      padding: 20px;
-    }
-    .frase {
-      border:solid #ffcc00;
-      background: #fff8dc;
-      margin-bottom: 10px;
-      border-radius: 10px;
-      margin-right: 20px;
-    }
-    #frases {
-      margin-right: 900px;
-    }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdd835;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+#juego {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+#frases, #imagenes {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.frase, .imagen {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.imagen img {
+  width: 50px;
+  height: auto;
+}
+.frase.correcta,
+.imagen.correcta {
+  background-color: lightgreen;
+}
+.frase.incorrecta,
+.imagen.incorrecta {
+  background-color: lightcoral;
+}
