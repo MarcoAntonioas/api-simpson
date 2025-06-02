@@ -1,7 +1,7 @@
 let fraseSeleccionadaIndex = null;
 let emparejamientosDelJugador = [null, null, null, null, null];
 let respuestaCorrectaPorImagen = [];
-let frasesMarcadas = [false, false, false, false, false]; // para marcar solo una vez
+let frasesMarcadas = [false, false, false, false, false];
 
 fetch('https://thesimpsonsquoteapi.glitch.me/quotes?count=5')
   .then(response => response.json())
